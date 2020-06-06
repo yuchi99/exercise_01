@@ -1,8 +1,13 @@
-function generateArray(n){
-  var result = []
-  for(var i=1; i<=n; i++){
-    result.push(i)
-  }
-  return result
-}
-console.log(generateArray(10))
+<body>
+    <div class="main">
+        我要變黃色
+    </div>
+
+    <script>
+        const element = document.querySelector('.main')
+        element.style.background = 'yellow'
+    </script>   
+</body>
+
+
+   
